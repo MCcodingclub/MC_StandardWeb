@@ -14,3 +14,6 @@ header {
  height: 60px;
  background-color: pink;
 }
+.columns {
+ display: flex;
+}

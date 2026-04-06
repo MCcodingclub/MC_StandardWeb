@@ -18,7 +18,7 @@ display: grid;
                width: 5em;
            }
 .Leftbox {
-           grid-area: LeftSide;
+           grid-area: Left-side;
            background-color: blue;
            padding: 20px;
                height: 10em;
@@ -32,7 +32,7 @@ display: grid;
                width: 5em;
 }
 .Rightbox {
-           grid-area: RightSide;
+           grid-area: right-side;
            background-color: blue;
            padding: 20px;
                height: 10em;

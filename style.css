@@ -12,11 +12,12 @@ display: grid;
 }
 .header {
            grid-area: header;
+           background: ;
            }
 .Leftbox {
            grid-area: LeftSide;
            }
-.body {
+.main {
            grid-area: body;
 }
 .Rightbox {

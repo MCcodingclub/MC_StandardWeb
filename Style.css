@@ -3,8 +3,23 @@ width: 100%;
 
 display: grid;
  grid: "header header header" auto;
- "article body article" 1fr
+ "Leftbox body Rightside" 1fr
  "footer footer footer" auto / auto 1fr auto;
  gap: 8px;
           background: url();
+}
+.header {
+           grid-area: header;
+           }
+.Leftbox {
+           grid-area: LeftSide;
+           }
+.body {
+           grid-area: body;
+}
+.Rightbox {
+           grid-area: Rightbox;
+           }
+.footer {
+           grid-area: footer;
 }

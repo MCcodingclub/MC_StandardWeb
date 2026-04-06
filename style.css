@@ -9,7 +9,6 @@ body {
  min-height: 100vh;
  text-align: center;
 }
-
 header {
  height: 60px;
  background-color: pink;
@@ -17,3 +16,15 @@ header {
 .columns {
  display: flex;
 }
+.Leftbox {
+ width: 100px;
+ background-color: orange;
+}
+.Middlebox {
+ background-color: green;
+}
+.Rigthbox {
+ width: 100px;
+ background-color: orange;
+}
+

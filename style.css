@@ -27,4 +27,8 @@ header {
  width: 100px;
  background-color: orange;
 }
+.footer {
+ height: 100px;
+ background-color: pink;
+}
 

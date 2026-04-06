@@ -32,7 +32,7 @@ display: grid;
                width: 5em;
 }
 .Rightbox {
-           grid-area: Rightbox;
+           grid-area: RightSide;
            background-color: blue;
            padding: 20px;
                height: 10em;

@@ -8,7 +8,7 @@ display: grid;
  "footer footer footer" auto 
   / auto 1fr auto;
  gap: 5em;
-          background: url();
+          background: url(https://file.garden/aVyfAGeKnkdh60V5/wiumlieinria.jpg);
 }
 .header {
            grid-area: header;

@@ -7,14 +7,13 @@ display: grid;
  "Leftbox body Rightside" 1fr
  "footer footer footer" auto 
   / auto 1fr auto;
-  grid-template-areas: "left-side right-side";
 }
  gap: 5em;
-          background: url(https://file.garden/aVyfAGeKnkdh60V5/wiumlieinria.jpg);
+          background-color: grey;
 }
 .header {
            grid-area: header;
-           background-color: orange;
+           background-color: pink;
            padding: 20px;
                height: 10em;
                width: 5em;

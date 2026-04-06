@@ -1,48 +1,10 @@
-.My-Site-Layout {
-width: 100%;
-
-display: grid;
- grid: 
- "header header header" auto
- "Leftbox body Rightside" 1fr
- "footer footer footer" auto 
-  / auto 1fr auto;
+body {
+ margin: 0;
+ font-family: sans-serif;
+ text-align: center;
 }
- gap: 5em;
-          background-color: grey;
-}
-.header {
-           grid-area: header;
-           background-color: pink;
-           padding: 20px;
-               height: 10em;
-               width: 5em;
-           }
-.Leftbox {
-           grid-area: Left-side;
-           background-color: blue;
-           padding: 20px;
-               height: 10em;
-               width: 5em;
-           }
-.main {
-           grid-area: body;
-           background-color: green;
-           padding: 20px;
-              height: 10em;
-               width: 5em;
-}
-.Rightbox {
-           grid-area: right-side;
-           background-color: blue;
-           padding: 20px;
-               height: 10em;
-               width: 5em;
-           }
-.footer {
-           grid-area: footer;
-           background-color: pink;
-           padding: 20px;
-               height: 10em;
-               width: 5em;
+.my-site-layout {
+ display: flex;
+ flex-direction: column;
+ min-height: 100vh;
 }
